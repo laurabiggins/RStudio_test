@@ -13,4 +13,5 @@ This is a plot of some penguin data
 
 ```{r}
 source("simple_plot.R")
+penguin_plot()
 ```
