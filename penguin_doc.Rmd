@@ -1,0 +1,16 @@
+---
+title: "penguin doc"
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a plot of some penguin data
+
+```{r}
+source("simple_plot.R")
+```
