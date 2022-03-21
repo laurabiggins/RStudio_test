@@ -1,4 +1,4 @@
 # RStudio_test
-## More info about my project
+## This is my new branch
 
 Temporary RStudio test project
