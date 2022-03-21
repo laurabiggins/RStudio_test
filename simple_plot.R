@@ -1,9 +1,13 @@
 library(palmerpenguins)
+library(ggplot2)
 
-plot(
-  penguins$bill_length_mm, 
-  penguins$flipper_length_mm,
-  col = "red2",
-  pch = 16
-)
+penguin_plot <- function(){
+  ggplot(
+    penguins, 
+    aes(x = bill_length_mm, 
+      y = flipper_length_mm,
+      col = species
+    )) + geom_point()
+}
+
 
